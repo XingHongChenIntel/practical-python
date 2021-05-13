@@ -1,0 +1,9 @@
+repos:
+-   repo: https://github.com/XingHongChenIntel/practical-python.git
+    rev: c8dc522
+    hooks:
+    -   id: black
+        name: black
+        language: python
+        entry: black -l 120 Work
+        language_version: python3.8
